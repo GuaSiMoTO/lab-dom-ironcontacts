@@ -52,6 +52,7 @@ td {
 /* Add a pseudo selector to animate button #btn-add-random when clicked, with confeti */
 #btn-add-random:active {
   background-color: #fd9a9a;
+
 }
 
 
@@ -82,6 +83,8 @@ td {
 
 .btn-like.selected {
   background-color: #fd9a9a;
+  /*le añado un borde radius para ver algo diferente*/
+  border-radius: 5px;
 }
 
 .btn-delete {
